@@ -8,11 +8,11 @@ import java.util.List;
 public class LoginResponse {
     @SerializedName("message")
     @Expose
-    private Message message = null;
+    private Message message;
 
     @SerializedName("users")
     @Expose
-    private List<User> userList = null;
+    private List<User> userList;
 
     public List<User> getUserList() {
         return userList;
